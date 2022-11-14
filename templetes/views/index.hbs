@@ -1,0 +1,107 @@
+<html lang="en">
+  <head>
+    {{>headerLink}}
+  </head>
+  <body>
+    <!-- NAVBAR -->
+   {{>navbar}}
+    <main class="flex-shrink-0">
+      <div class="container">
+        <!-- MAIN HEADER -->
+
+        <div class="row">
+          <div class="col-sm-6 main_header_left">
+            <p>Welcome to weather app </p>
+            <h1>
+              Get The Latest
+              <span class="text_color">Weather</span>
+              Info of Your City
+            </h1>
+            <a href="/weather"><button>check now</button></a>
+          </div>
+          <div class="col-sm-6 main_header_right">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://i.pinimg.com/originals/90/d1/ba/90d1baefe04293a708d2158caf4aef84.gif"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/54c4dd2ce4b0b23209609dcd/1522249505336-Z8D2J215XEGLESDEQA3X/regenschirmwetterneu.gif"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/54c4dd2ce4b0b23209609dcd/1522249331150-3NRS28T8E9YSOC9FZWNC/gilberte.gif"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/54c4dd2ce4b0b23209609dcd/1522249936900-BH6JARKDV19MDOP0DFLJ/lesenbeiwind_1080px.gif"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src=" https://freight.cargo.site/w/1080/q/94/i/0eea24f253311bfc96fa533611a5a5abd6a751876191268cff326ca7ca9bafa2/mgmtkonzert.gif"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="https://freight.cargo.site/w/1200/q/94/i/8d95cefa4e2e6d7497703bb207ffe5cf4a4a1b16df31f8c913a44b54deb8d01b/overheating.gif"
+                    class="w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+   {{>footer}}
+  </body>
+</html>
